@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Login Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/sf-regular-filled/256/pizza.png"/>
+    <link rel="stylesheet" href="lostyle.css">
+</head>
+
+<body>
+    <header class="head">
+        
+        <h2 class="logo">Pizza &nbsp;<i class="fas fa-pizza-slice"></i>&nbsp;zone</a></h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+    <div class="wrapper">
+        
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        
+        <div class="form-box Login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-unread"></ion-icon></span>
+                    <input type="email"name="username" required>
+                    <label>Email ID</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="pwd" required>
+                    <label>Password</label>
+                </div>
+                <div class="reminder-forgot">
+                    <label><input type="checkbox">Reminder me </label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="Submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Dont't have an account? <a href="#" class="Register">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="loscript.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
